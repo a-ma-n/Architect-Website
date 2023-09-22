@@ -75,7 +75,8 @@ nav div ul li a {
 }
 
 nav div ul li i {
-    padding-left: 35px;
+    padding-left: 17px;
+    padding-right: 17px;
     float: left;
 }
 
@@ -462,8 +463,9 @@ a {
 }
 
 .bottom-content {
-    float: left;
-    margin-left: 30px;
+    /* float: center; */
+    padding: 5%;
+
 }
 
 .bottom-content h2 {
@@ -593,6 +595,7 @@ a {
     width: 80%;
     /* height: 300px; */
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 .final-content {
