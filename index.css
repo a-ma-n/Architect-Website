@@ -20,7 +20,19 @@ body {
     margin: 0 auto;
     transition: background-image 1s ease;
 }
-
+.clients {
+    width: 100%;
+    height: 60vh;
+    /* background-color:rgb(211, 209, 209); */
+    background-image: url('ua_architects_resources/clients.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Add other hero image styles as needed */
+    /* margin: 0 auto; */
+    transition: background-image 1s ease;
+    margin-bottom: 5%;
+}
 
 .header {
     width: 100%;
