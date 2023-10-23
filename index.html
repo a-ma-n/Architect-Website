@@ -84,7 +84,7 @@
     <div class="bottom-image" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <!-- <h2> About Us: </h2> -->
         <div class="image-video-container" style="width: 100%; background-color: black;">
-            <video controls poster="ua_architects_resources/placeholder.png" width="100%" height="500">
+            <video controls poster="ua_architects_resources/placeholder.png" width="100%" height="500" preload="none">
                 <source src="/ua_architects_resources/video2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -222,7 +222,7 @@
             // Set a timeout to hide the loader after 3 seconds
             setTimeout(function () {
                 loader.style.display = "none";
-            }, 2000); // 3000 milliseconds = 3 seconds
+            }, 1500); // 3000 milliseconds = 3 seconds
         });
     </script>
     
@@ -245,7 +245,7 @@
                 currentIndex = (currentIndex + 1) % images.length;
             }
 
-            setInterval(changeBackgroundImage, 6000); // Change image every 5 seconds
+            setInterval(changeBackgroundImage, 7000); // Change image every 5 seconds
         });
     </script>
     <script src="copy-email.js"></script>
